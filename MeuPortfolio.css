@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');  
+
+:root {
+    --cor-primaria: #1E0342;
+    --cor-secundaria: #0E46A3;
+    --cor-terciaria: #9AC8CD;
+    --cor-hover: #E1F7F5;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {    
+    background-color: var(--cor-neutra);
+    height: 100vh;
+}
+
+.apresentacao_interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.apresentacao__interface {
+    display: flex;
+}
+
+header {
+    padding: 40px 4%;    
+}
+
+header > .apresentacao__interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: var(--cor-terciaria);
+    transform: scale(1.05);
+}
+
+header nav {
+    margin: 0px 0px 0px 45px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+section .apresentacao {
+    padding: 40px 4%;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+.apresentacao h1 {    
+    color: var(--cor-primaria);  
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.apresentacao .apresentacao_texto p {
+    color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    margin: 40px 0px;
+    width: 80%;
+}
+
+.apresentacao .imagem img{
+    max-width: 100%;      
+    padding: 0px 0px 0px 0px;   
+    border: 0;
+    border-radius: 50px;
+    /* box-shadow: 0px 0px 10px #ffff01; */
+    position: relative;
+    animation: flutuando 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuando{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+
+button {
+    font-family: var(--fonte-secundaria);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--cor-primaria);
+    padding: 8px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #ffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor-primaria);
+    color: #ffff;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
