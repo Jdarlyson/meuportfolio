@@ -7,23 +7,24 @@ function adicionarOperador(operador) {
 }
 
 function calcular() {
-    let resultado = eval(document.getElementById("resultado").value);
-    document.getElementById("resultado").value = resultado
+    let entrada = document.getElementById("resultado").value;
+    if (entrada.trim() === "") {
+        alert("Digite um número válido!");
+    } else {
+        let resultado = eval(entrada);
+        document.getElementById("resultado").value = resultado;
+    }
 }
 
 function limpar() {
     document.getElementById("resultado").value = "";
 }
 
-function calcular() {
-    let entrada = document.getElementById("resultado").value;
-    // Verifica se o campo de entrada está vazio
-    if (entrada.trim() === "") {
-        // Se estiver vazio, exibe a mensagem de alerta
-        alert("Digite um número válido!");
-    } else {
-        // Caso contrário, realiza o cálculo normalmente
-        let resultado = eval(entrada);
-        document.getElementById("resultado").value = resultado;
+function alternarModo() {
+    document.body.classList.toggle("dark-mode");
+    var calculadora = document.querySelector(".calculadora");
+    if (calculadora) {
+        calculadora.classList.toggle("dark-mode-calc"); // Adicionando uma classe específica para a calculadora no modo escuro
+        
     }
 }

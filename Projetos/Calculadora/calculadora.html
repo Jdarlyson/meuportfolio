@@ -9,6 +9,11 @@
 </head>
 
 <body>
+
+    <div class="conteiner-dark">
+        <button class="dark-mode" onclick="alternarModo()">Modo Escuro</button>
+    </div>
+
     <div class="calculadora"> <!-- Cria um contêiner para a calculadora -->
         <input type="text" class="display" id="resultado" readonly> <!-- Caixa de texto de exibição -->
         <!-- Botões numéricos e de operação com eventos de clique -->
@@ -33,8 +38,9 @@
         <button class="btn operador" value="/" onclick="adicionarOperador('+')">/</button>
     </div>
 
-    <script src="calculadora.js"
+    <script src="calculadora.js"></script> 
 
+    
 </body>
 
 </html>
