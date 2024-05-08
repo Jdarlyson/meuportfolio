@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(199, 160, 103);   
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;    
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(174, 230, 150);
+    padding: 10px;
+    margin: 10px;    
+}
+
+p {
+    padding: 20px 25%; 
+    text-align: center;
+    font-size: 20px;
+    color: rgb(31, 23, 23);   
+    margin: 10px;
+    line-height: 25px;     
+
+}
