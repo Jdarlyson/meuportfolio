@@ -1,3 +1,4 @@
+//para baixar o curriculo
 document.getElementById("downloadButton").addEventListener("click", function() {    
     var link = document.createElement('a');
     // Defina o atributo href com o link para o arquivo PDF
@@ -8,3 +9,7 @@ document.getElementById("downloadButton").addEventListener("click", function() {
     link.click();
 });
 
+//botao de voltar
+function voltar() {
+    window.history.back();
+}

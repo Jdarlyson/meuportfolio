@@ -111,7 +111,7 @@ section .apresentacao {
 }
 
 
-button {
+.Botao_curriculum button {
     font-family: var(--fonte-secundaria);
     text-transform: uppercase;
     border: none;
@@ -126,7 +126,7 @@ button {
     transition: transform 0.2s ease;
 }
 
-button:hover {
+.Botao_curriculum button:hover {
     transform: scale(1.1);
 }
 
@@ -140,7 +140,11 @@ button:hover {
 .icone_social svg{
     width: 24px;
     height: auto;
-    
+    transition: transform 0.2s ease;
+}
+
+.icone_social svg:hover {
+    transform: scale(1.1);
 }
 
 

@@ -37,4 +37,18 @@ body {
     text-decoration: none;    
 }
 
+.voltarhome { 
+    background-color: white;   
+    border: none;
+    display: flex;
+    margin-left: 87.5rem;
+    margin-top: -26.2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.voltarhome:hover {
+    transform: scale(1.1);
+}
+
 

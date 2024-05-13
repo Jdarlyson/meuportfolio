@@ -50,7 +50,7 @@ body.dark-mode {
     box-shadow: 0 0 50px var(--cor-terciaria);
     position: relative;
     z-index: 1;
-    right: 400px;
+    right: 20.6rem;
 }
 
 .calculadora.dark-mode-calc {
@@ -139,4 +139,21 @@ button.dark-mode {
 
 button.dark-mode:hover {
     transform: scale(1.05);
+}
+
+.voltarprojeto {
+    background-color: white;
+    border: none;
+    margin-top: -37.2rem;
+    margin-right: 5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.voltarprojeto:hover {
+    transform: scale(1.1);
+}
+
+.dark-mode .voltarprojeto {
+    background-color: var(--cor-dark_mode-secundaria);
 }

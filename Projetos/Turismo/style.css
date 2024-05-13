@@ -3,7 +3,23 @@ body {
 
 }
 
-img {
+.voltarprojeto2 {
+    position: fixed;    
+    margin-left: 87.5rem;
+    margin-top: 1.25rem;  
+    border: none;    
+    background-color: rgb(199, 160, 103); 
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.voltarprojeto2:hover {
+    transform: scale(1.1);
+}
+
+
+
+.img_turismo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +30,7 @@ img {
     padding: 10px;    
 }
 
-h1 {
+.texto_turismo {
     text-align: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -22,7 +38,7 @@ h1 {
     margin: 10px;
 }
 
-h2 {
+.texto_turismo2 {
     text-align: center;
     font-size: 25px;
     color: rgb(174, 230, 150);
