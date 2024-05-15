@@ -13,3 +13,12 @@ document.getElementById("downloadButton").addEventListener("click", function() {
 function voltar() {
     window.history.back();
 }
+
+//botao hamburguer que esta no link projeto.
+function toggleProjetoLista() {
+    var projetoLista = document.getElementById("projeto-lista");
+    projetoLista.style.display = projetoLista.style.display === "none" ? "block" : "none";
+}
+
+document.getElementById("projeto").addEventListener("click", toggleProjetoLista);
+
