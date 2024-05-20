@@ -1,6 +1,5 @@
 body {
     background-color: rgb(199, 160, 103);   
-
 }
 
 .voltarprojeto2 {
@@ -16,8 +15,6 @@ body {
 .voltarprojeto2:hover {
     transform: scale(1.1);
 }
-
-
 
 .img_turismo {
     display: block;
@@ -53,5 +50,10 @@ p {
     color: rgb(31, 23, 23);   
     margin: 10px;
     line-height: 25px;     
+}
 
+.swiper-button-prev2,
+.swiper-button-next2 {
+    display: flex; 
+    background-color: black;
 }

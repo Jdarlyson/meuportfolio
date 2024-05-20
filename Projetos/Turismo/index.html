@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Turismo em Recife</title>
 </head>
 
@@ -19,7 +20,17 @@
     <main>
         <section>
             <h2 class="texto_turismo2">Nossa Senhora da Conceição - Recife/PE</h2>
-            <img class="img_turismo" src="/assets/Nossa senhora.webp" alt="NossaSenhoradaConceicao" width="600px">
+
+            <div class="swiper-container swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img class="img_turismo" src="/assets/Nossa senhora.webp" alt="Nossa Senhora da Conceição 1"></div>
+                    <div class="swiper-slide"><img class="img_turismo" src="/assets/morro da conceicao2.jpeg" alt="Nossa Senhora da Conceição 2"></div>
+                    <div class="swiper-slide"><img class="img_turismo" src="/assets/morro da conceicao3.jpg" alt="Nossa Senhora da Conceição 3"></div>
+                    <div class="swiper-slide"><img class="img_turismo" src="/assets/morro da conceicao4.jpeg" alt="Nossa Senhora da Conceição 3"></div>
+                </div>                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>                
+            </div>        
 
             <p>A Basílica e Convento de Nossa Senhora do Carmo, localizada no Morro da Conceição em Recife, é uma
                 importante igreja católica do século XVII, conhecida por sua arquitetura barroca ornamentada e fachada
@@ -56,8 +67,9 @@
                 Pernambuco e do Brasil.</p>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
-<script src="/script.js"></script>
+<script src="turismo.js"></script>
 
 </html>
