@@ -1,0 +1,10 @@
+
+
+.card_descricao {
+    display: flex;    
+}
+
+.descricao_imagem {
+    max-width: 10%;
+    height: 25vh;
+}
